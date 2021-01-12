@@ -1,0 +1,28 @@
+
+entity Product {
+	id String required,
+	name String required,
+    price Double required,
+  	description String,
+    unit String,
+    imageUrl String,
+    imageBase64 String
+}
+
+entity Category {
+	id String required,
+    name String required,
+    description String,
+    imageUrl String,
+    imageBase64 String
+}
+
+
+
+relationship ManyToMany {
+  Product to Category
+
+}
+paginate Product with pagination
+dto * with mapstruct
+service all with serviceImpl

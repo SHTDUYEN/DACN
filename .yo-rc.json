@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.thicuoiky.web"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "TCH",
+    "packageName": "com.thicuoiky.web",
+    "packageFolder": "com/nguyen/web",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MWNiYjQ2ZWJkNDc3ZjIwYTczZWU5OTA0OTdlODBlYzFkMjI4Yzg2YTJjY2E4NWY2ZGU1NzA4ZGQzNDc0NGNlNThlMGRhOTE1YmE0NzYxNzlmMjNlMTE5ZTE1OTFjMzRmZjJlNTZhZDI1YmFiYjM2YTI4ODY3MDEyNTg3MmY3Yzc=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "cosmo",
+    "clientThemeVariant": "primary",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
